@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# https://github.com/erichVK5/KicadModuleToGEDA
+
+SRC_PATH=/usr/local/lib/kicad2geda/KicadModuleToGEDA
+
+exec java -classpath $SRC_PATH KicadModuleToGEDA

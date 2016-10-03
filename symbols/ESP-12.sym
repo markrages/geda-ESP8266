@@ -1,0 +1,194 @@
+v 20110115 1
+T 900 800 3 12 1 0 0 0 1
+refdes=U?
+T 900 1000 3 12 1 0 0 0 1
+device=ESP-12
+T 900 900 3 12 1 0 0 0 1
+
+T 900 900 3 12 1 0 0 0 1
+
+B 300 300 1200 1200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 0 1200 300 1200 3 0 0
+{
+T 150 1215 5 7 1 1 0 3 1
+pinnumber=1
+T 315 1200 3 5 1 1 0 1 1
+pinlabel=REST
+T 150 1215 5 7 0 1 0 3 1
+pinseq=1
+T 150 1215 5 7 0 1 0 3 1
+pintype=in
+}
+P 0 1100 300 1100 3 0 0
+{
+T 150 1115 5 7 1 1 0 3 1
+pinnumber=2
+T 315 1100 3 5 1 1 0 1 1
+pinlabel=ADC
+T 150 1115 5 7 0 1 0 3 1
+pinseq=2
+T 150 1115 5 7 0 1 0 3 1
+pintype=pas
+}
+P 0 1000 300 1000 3 0 0
+{
+T 150 1015 5 7 1 1 0 3 1
+pinnumber=3
+T 315 1000 3 5 1 1 0 1 1
+pinlabel=CH_PD
+T 150 1015 5 7 0 1 0 3 1
+pinseq=3
+T 150 1015 5 7 0 1 0 3 1
+pintype=in
+}
+P 0 900 300 900 3 0 0
+{
+T 150 915 5 7 1 1 0 3 1
+pinnumber=4
+T 315 900 3 5 1 1 0 1 1
+pinlabel=GPIO16
+T 150 915 5 7 0 1 0 3 1
+pinseq=4
+T 150 915 5 7 0 1 0 3 1
+pintype=pas
+}
+P 0 800 300 800 3 0 0
+{
+T 150 815 5 7 1 1 0 3 1
+pinnumber=5
+T 315 800 3 5 1 1 0 1 1
+pinlabel=GPIO14
+T 150 815 5 7 0 1 0 3 1
+pinseq=5
+T 150 815 5 7 0 1 0 3 1
+pintype=pas
+}
+P 0 700 300 700 3 0 0
+{
+T 150 715 5 7 1 1 0 3 1
+pinnumber=6
+T 315 700 3 5 1 1 0 1 1
+pinlabel=GPIO12
+T 150 715 5 7 0 1 0 3 1
+pinseq=6
+T 150 715 5 7 0 1 0 3 1
+pintype=pas
+}
+P 0 600 300 600 3 0 0
+{
+T 150 615 5 7 1 1 0 3 1
+pinnumber=7
+T 315 600 3 5 1 1 0 1 1
+pinlabel=GPIO13
+T 150 615 5 7 0 1 0 3 1
+pinseq=7
+T 150 615 5 7 0 1 0 3 1
+pintype=pas
+}
+P 900 1800 900 1500 3 0 0
+{
+T 885 1650 5 7 1 1 90 3 1
+pinnumber=8
+T 900 1485 3 5 1 1 90 7 1
+pinlabel=VCC
+T 885 1650 5 7 0 1 90 3 1
+pinseq=8
+T 885 1650 5 7 0 1 90 3 1
+pintype=pwr
+}
+P 900 0 900 300 3 0 0
+{
+T 885 150 5 7 1 1 90 3 1
+pinnumber=9
+T 900 315 3 5 1 1 90 1 1
+pinlabel=GND
+T 885 150 5 7 0 1 90 3 1
+pinseq=9
+T 885 150 5 7 0 1 90 3 1
+pintype=pwr
+}
+P 1800 600 1500 600 3 0 0
+{
+T 1650 615 5 7 1 1 0 3 1
+pinnumber=10
+T 1485 600 3 5 1 1 0 7 1
+pinlabel=GPIO15
+T 1650 615 5 7 0 1 0 3 1
+pinseq=10
+T 1650 615 5 7 0 1 0 3 1
+pintype=pas
+}
+P 1800 700 1500 700 3 0 0
+{
+T 1650 715 5 7 1 1 0 3 1
+pinnumber=11
+T 1485 700 3 5 1 1 0 7 1
+pinlabel=GPIO2
+T 1650 715 5 7 0 1 0 3 1
+pinseq=11
+T 1650 715 5 7 0 1 0 3 1
+pintype=pas
+}
+P 1800 800 1500 800 3 0 0
+{
+T 1650 815 5 7 1 1 0 3 1
+pinnumber=12
+T 1485 800 3 5 1 1 0 7 1
+pinlabel=GPIO0
+T 1650 815 5 7 0 1 0 3 1
+pinseq=12
+T 1650 815 5 7 0 1 0 3 1
+pintype=pas
+}
+P 1800 900 1500 900 3 0 0
+{
+T 1650 915 5 7 1 1 0 3 1
+pinnumber=13
+T 1485 900 3 5 1 1 0 7 1
+pinlabel=GPIO4
+T 1650 915 5 7 0 1 0 3 1
+pinseq=13
+T 1650 915 5 7 0 1 0 3 1
+pintype=pas
+}
+P 1800 1000 1500 1000 3 0 0
+{
+T 1650 1015 5 7 1 1 0 3 1
+pinnumber=14
+T 1485 1000 3 5 1 1 0 7 1
+pinlabel=GPIO5
+T 1650 1015 5 7 0 1 0 3 1
+pinseq=14
+T 1650 1015 5 7 0 1 0 3 1
+pintype=pas
+}
+P 1800 1100 1500 1100 3 0 0
+{
+T 1650 1115 5 7 1 1 0 3 1
+pinnumber=15
+T 1485 1100 3 5 1 1 0 7 1
+pinlabel=RXD
+T 1650 1115 5 7 0 1 0 3 1
+pinseq=15
+T 1650 1115 5 7 0 1 0 3 1
+pintype=in
+}
+P 1800 1200 1500 1200 3 0 0
+{
+T 1650 1215 5 7 1 1 0 3 1
+pinnumber=16
+T 1485 1200 3 5 1 1 0 7 1
+pinlabel=TXD
+T 1650 1215 5 7 0 1 0 3 1
+pinseq=16
+T 1650 1215 5 7 0 1 0 3 1
+pintype=out
+}
+T 900 1120 3 7 0 0 0 0 1
+numslots=0
+T 900 1230 3 7 0 0 0 0 1
+footprint=ESP-07*
+T 900 1340 3 7 0 0 0 0 1
+comment=Equivalent devices: ESP-07v2
+T 900 1450 3 7 0 0 0 0 1
+source=kicad.lib

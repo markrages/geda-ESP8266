@@ -3,6 +3,10 @@ geda-ESP8266 - a library for gEDA
 
 This library is a gEDA (gschem / pcb) port of the upstream KiCAD footprints and symbols.
 
+The gschem symbols are in `symbols` and the pcb footprints are in `footprints`.
+
+Anyone curious about the conversion process should read the Makefile and wrapper scripts in `tools`.
+
 Upstream README follows:
 
 kicad-ESP8266 - a library for KiCAD
@@ -31,7 +35,7 @@ The present modules are:
               locations so the footprint was created from empirical
               measurements on the unit I have.
 
-  * ESP-12E - This is for the 22 pin variant of the ESP-12. Though all the 
+  * ESP-12E - This is for the 22 pin variant of the ESP-12. Though all the
               esp-12 signals are in the same place on ESP-12E, pin numbers
               have changed.
 
@@ -59,7 +63,7 @@ Use
 
         mkdir -p ~/kicad/libraries/
         cd ~/kicad/libraries/
-        git clone 
+        git clone
 
  2. Add `ESP8266.lib` to the Component Libraries:
 
@@ -125,7 +129,7 @@ Copyright 2015 J.Dunmire
 
 Contact: jedunmire PLUS kicad-ESP8266 AT gmail DOT com
 
-This file is part of kicad-ESP8266. 
+This file is part of kicad-ESP8266.
 
 kicad-ESP8266 is licensed under the Creative Commons Attribution-ShareAlike
 4.0 International License. To view a copy of this license visit

@@ -1,0 +1,379 @@
+v 20110115 1
+T 250 1500 3 12 1 0 0 0 1
+refdes=U?
+T 300 1400 3 12 1 0 0 0 1
+device=ESP8266EX
+T 250 1500 3 12 1 0 0 0 1
+
+T 250 1500 3 12 1 0 0 0 1
+
+B 300 1300 1550 -1000 3 0 0 0 -1 -1 1 -1 -1 -1 -1 -1
+P 0 1150 300 1150 3 0 0
+{
+T 150 1165 5 7 1 1 0 3 1
+pinnumber=1
+T 315 1150 3 5 1 1 0 1 1
+pinlabel=VddA
+T 150 1165 5 7 0 1 0 3 1
+pinseq=1
+T 150 1165 5 7 0 1 0 3 1
+pintype=in
+}
+P 0 1050 300 1050 3 0 0
+{
+T 150 1065 5 7 1 1 0 3 1
+pinnumber=2
+T 315 1050 3 5 1 1 0 1 1
+pinlabel=LNA/ANT
+T 150 1065 5 7 0 1 0 3 1
+pinseq=2
+T 150 1065 5 7 0 1 0 3 1
+pintype=in
+}
+P 0 950 300 950 3 0 0
+{
+T 150 965 5 7 1 1 0 3 1
+pinnumber=3
+T 315 950 3 5 1 1 0 1 1
+pinlabel=Vdd3P3
+T 150 965 5 7 0 1 0 3 1
+pinseq=3
+T 150 965 5 7 0 1 0 3 1
+pintype=in
+}
+P 0 850 300 850 3 0 0
+{
+T 150 865 5 7 1 1 0 3 1
+pinnumber=4
+T 315 850 3 5 1 1 0 1 1
+pinlabel=Vdd3P3
+T 150 865 5 7 0 1 0 3 1
+pinseq=4
+T 150 865 5 7 0 1 0 3 1
+pintype=in
+}
+P 0 750 300 750 3 0 0
+{
+T 150 765 5 7 1 1 0 3 1
+pinnumber=5
+T 315 750 3 5 1 1 0 1 1
+pinlabel=VddRCT
+T 150 765 5 7 0 1 0 3 1
+pinseq=5
+T 150 765 5 7 0 1 0 3 1
+pintype=in
+}
+P 0 650 300 650 3 0 0
+{
+T 150 665 5 7 1 1 0 3 1
+pinnumber=6
+T 315 650 3 5 1 1 0 1 1
+pinlabel=TOUT
+T 150 665 5 7 0 1 0 3 1
+pinseq=6
+T 150 665 5 7 0 1 0 3 1
+pintype=in
+}
+P 0 550 300 550 3 0 0
+{
+T 150 565 5 7 1 1 0 3 1
+pinnumber=7
+T 315 550 3 5 1 1 0 1 1
+pinlabel=CHIP_EN
+T 150 565 5 7 0 1 0 3 1
+pinseq=7
+T 150 565 5 7 0 1 0 3 1
+pintype=in
+}
+P 0 450 300 450 3 0 0
+{
+T 150 465 5 7 1 1 0 3 1
+pinnumber=8
+T 315 450 3 5 1 1 0 1 1
+pinlabel=XPD_DCDC
+T 150 465 5 7 0 1 0 3 1
+pinseq=8
+T 150 465 5 7 0 1 0 3 1
+pintype=in
+}
+P 800 0 800 300 3 0 0
+{
+T 785 150 5 7 1 1 90 3 1
+pinnumber=9
+T 800 315 3 5 1 1 90 1 1
+pinlabel=MTMS/GPIO14
+T 785 150 5 7 0 1 90 3 1
+pinseq=9
+T 785 150 5 7 0 1 90 3 1
+pintype=in
+}
+P 900 0 900 300 3 0 0
+{
+T 885 150 5 7 1 1 90 3 1
+pinnumber=10
+T 900 315 3 5 1 1 90 1 1
+pinlabel=MTDI/GPIO12
+T 885 150 5 7 0 1 90 3 1
+pinseq=10
+T 885 150 5 7 0 1 90 3 1
+pintype=in
+}
+P 2150 750 1850 750 3 0 0
+{
+T 2000 765 5 7 1 1 0 3 1
+pinnumber=20
+T 1835 750 3 5 1 1 0 7 1
+pinlabel=SD_CMD
+T 2000 765 5 7 0 1 0 3 1
+pinseq=11
+T 2000 765 5 7 0 1 0 3 1
+pintype=in
+}
+P 1000 1600 1000 1300 3 0 0
+{
+T 985 1450 5 7 1 1 90 3 1
+pinnumber=30
+T 1000 1285 3 5 1 1 90 7 1
+pinlabel=VDDA
+T 985 1450 5 7 0 1 90 3 1
+pinseq=12
+T 985 1450 5 7 0 1 90 3 1
+pintype=in
+}
+P 1000 0 1000 300 3 0 0
+{
+T 985 150 5 7 1 1 90 3 1
+pinnumber=11
+T 1000 315 3 5 1 1 90 1 1
+pinlabel=VddPST
+T 985 150 5 7 0 1 90 3 1
+pinseq=13
+T 985 150 5 7 0 1 90 3 1
+pintype=in
+}
+P 2150 850 1850 850 3 0 0
+{
+T 2000 865 5 7 1 1 0 3 1
+pinnumber=21
+T 1835 850 3 5 1 1 0 7 1
+pinlabel=SD_CLK
+T 2000 865 5 7 0 1 0 3 1
+pinseq=14
+T 2000 865 5 7 0 1 0 3 1
+pintype=in
+}
+P 900 1600 900 1300 3 0 0
+{
+T 885 1450 5 7 1 1 90 3 1
+pinnumber=31
+T 900 1285 3 5 1 1 90 7 1
+pinlabel=RES12K
+T 885 1450 5 7 0 1 90 3 1
+pinseq=15
+T 885 1450 5 7 0 1 90 3 1
+pintype=in
+}
+P 1100 0 1100 300 3 0 0
+{
+T 1085 150 5 7 1 1 90 3 1
+pinnumber=12
+T 1100 315 3 5 1 1 90 1 1
+pinlabel=MTCK/GPIO13
+T 1085 150 5 7 0 1 90 3 1
+pinseq=16
+T 1085 150 5 7 0 1 90 3 1
+pintype=in
+}
+P 2150 950 1850 950 3 0 0
+{
+T 2000 965 5 7 1 1 0 3 1
+pinnumber=22
+T 1835 950 3 5 1 1 0 7 1
+pinlabel=SD_D0
+T 2000 965 5 7 0 1 0 3 1
+pinseq=17
+T 2000 965 5 7 0 1 0 3 1
+pintype=in
+}
+P 800 1600 800 1300 3 0 0
+{
+T 785 1450 5 7 1 1 90 3 1
+pinnumber=32
+T 800 1285 3 5 1 1 90 7 1
+pinlabel=EXT_RSTB
+T 785 1450 5 7 0 1 90 3 1
+pinseq=18
+T 785 1450 5 7 0 1 90 3 1
+pintype=in
+}
+P 1200 0 1200 300 3 0 0
+{
+T 1185 150 5 7 1 1 90 3 1
+pinnumber=13
+T 1200 315 3 5 1 1 90 1 1
+pinlabel=MTDO/GPIO15
+T 1185 150 5 7 0 1 90 3 1
+pinseq=19
+T 1185 150 5 7 0 1 90 3 1
+pintype=in
+}
+P 2150 1050 1850 1050 3 0 0
+{
+T 2000 1065 5 7 1 1 0 3 1
+pinnumber=23
+T 1835 1050 3 5 1 1 0 7 1
+pinlabel=SD_D1
+T 2000 1065 5 7 0 1 0 3 1
+pinseq=20
+T 2000 1065 5 7 0 1 0 3 1
+pintype=in
+}
+P 700 1600 700 1300 3 0 0
+{
+T 685 1450 5 7 1 1 90 3 1
+pinnumber=33
+T 700 1285 3 5 1 1 90 7 1
+pinlabel=GND
+T 685 1450 5 7 0 1 90 3 1
+pinseq=21
+T 685 1450 5 7 0 1 90 3 1
+pintype=in
+}
+P 1300 0 1300 300 3 0 0
+{
+T 1285 150 5 7 1 1 90 3 1
+pinnumber=14
+T 1300 315 3 5 1 1 90 1 1
+pinlabel=GPIO2
+T 1285 150 5 7 0 1 90 3 1
+pinseq=22
+T 1285 150 5 7 0 1 90 3 1
+pintype=in
+}
+P 2150 1150 1850 1150 3 0 0
+{
+T 2000 1165 5 7 1 1 0 3 1
+pinnumber=24
+T 1835 1150 3 5 1 1 0 7 1
+pinlabel=GP5/VD
+T 2000 1165 5 7 0 1 0 3 1
+pinseq=23
+T 2000 1165 5 7 0 1 0 3 1
+pintype=in
+}
+P 1400 0 1400 300 3 0 0
+{
+T 1385 150 5 7 1 1 90 3 1
+pinnumber=15
+T 1400 315 3 5 1 1 90 1 1
+pinlabel=GPIO0
+T 1385 150 5 7 0 1 90 3 1
+pinseq=24
+T 1385 150 5 7 0 1 90 3 1
+pintype=in
+}
+P 1500 1600 1500 1300 3 0 0
+{
+T 1485 1450 5 7 1 1 90 3 1
+pinnumber=25
+T 1500 1285 3 5 1 1 90 7 1
+pinlabel=URXD
+T 1485 1450 5 7 0 1 90 3 1
+pinseq=25
+T 1485 1450 5 7 0 1 90 3 1
+pintype=in
+}
+P 1500 0 1500 300 3 0 0
+{
+T 1485 150 5 7 1 1 90 3 1
+pinnumber=16
+T 1500 315 3 5 1 1 90 1 1
+pinlabel=GP4/VD
+T 1485 150 5 7 0 1 90 3 1
+pinseq=26
+T 1485 150 5 7 0 1 90 3 1
+pintype=in
+}
+P 1400 1600 1400 1300 3 0 0
+{
+T 1385 1450 5 7 1 1 90 3 1
+pinnumber=26
+T 1400 1285 3 5 1 1 90 7 1
+pinlabel=UTXD
+T 1385 1450 5 7 0 1 90 3 1
+pinseq=27
+T 1385 1450 5 7 0 1 90 3 1
+pintype=in
+}
+P 2150 450 1850 450 3 0 0
+{
+T 2000 465 5 7 1 1 0 3 1
+pinnumber=17
+T 1835 450 3 5 1 1 0 7 1
+pinlabel=VddPST
+T 2000 465 5 7 0 1 0 3 1
+pinseq=28
+T 2000 465 5 7 0 1 0 3 1
+pintype=in
+}
+P 1300 1600 1300 1300 3 0 0
+{
+T 1285 1450 5 7 1 1 90 3 1
+pinnumber=27
+T 1300 1285 3 5 1 1 90 7 1
+pinlabel=XTAL_OUT
+T 1285 1450 5 7 0 1 90 3 1
+pinseq=29
+T 1285 1450 5 7 0 1 90 3 1
+pintype=in
+}
+P 2150 550 1850 550 3 0 0
+{
+T 2000 565 5 7 1 1 0 3 1
+pinnumber=18
+T 1835 550 3 5 1 1 0 7 1
+pinlabel=SD_D2
+T 2000 565 5 7 0 1 0 3 1
+pinseq=30
+T 2000 565 5 7 0 1 0 3 1
+pintype=in
+}
+P 1200 1600 1200 1300 3 0 0
+{
+T 1185 1450 5 7 1 1 90 3 1
+pinnumber=28
+T 1200 1285 3 5 1 1 90 7 1
+pinlabel=XTAL_IN
+T 1185 1450 5 7 0 1 90 3 1
+pinseq=31
+T 1185 1450 5 7 0 1 90 3 1
+pintype=in
+}
+P 2150 650 1850 650 3 0 0
+{
+T 2000 665 5 7 1 1 0 3 1
+pinnumber=19
+T 1835 650 3 5 1 1 0 7 1
+pinlabel=SD_D3
+T 2000 665 5 7 0 1 0 3 1
+pinseq=32
+T 2000 665 5 7 0 1 0 3 1
+pintype=in
+}
+P 1100 1600 1100 1300 3 0 0
+{
+T 1085 1450 5 7 1 1 90 3 1
+pinnumber=29
+T 1100 1285 3 5 1 1 90 7 1
+pinlabel=VDDD
+T 1085 1450 5 7 0 1 90 3 1
+pinseq=33
+T 1085 1450 5 7 0 1 90 3 1
+pintype=in
+}
+T 1150 1020 3 7 0 0 0 0 1
+numslots=0
+T 1150 1130 3 7 0 0 0 0 1
+footprint=QFN-32-1EP_5x5mm_Pitch0.5mm
+T 1150 1240 3 7 0 0 0 0 1
+source=kicad.lib

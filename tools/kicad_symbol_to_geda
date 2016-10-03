@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# https://github.com/erichVK5/KicadSymbolToGEDA
+
+SRC_PATH=/usr/local/lib/kicad2geda/KicadSymbolToGEDA
+
+exec java -classpath $SRC_PATH KicadSymbolToGEDA
