@@ -1,4 +1,5 @@
 geda-ESP8266 - a library for gEDA
+=================================
 
 This library is a gEDA (gschem / pcb) port of the upstream KiCAD footprints and symbols.
 
